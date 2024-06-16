@@ -1,0 +1,6 @@
+Ktora z wymienionych cehc nie jest paradygmatem programowania obiektowego
+A. abstrakcja
+B. wspolbieznosc
+C. polimorfizm
+D. hermetyzacja
+!B

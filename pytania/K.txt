@@ -1,0 +1,6 @@
+Wskaz zdanie falszywe (prawo Ohma):
+A. Natezenie pradu plynacego przez przewodnik jest wprost proporcjonalne do napiecia.
+B.Napiecie pradu plynacego przez przewodnik jest wprost proporcjonalne do natezenia.
+C. Opor przewodnika jest wprost proporcjonalny do przylozonego do niego napiecia.
+D. Natezenie jest odwrotnie proporcjonalne do napiecia
+!C

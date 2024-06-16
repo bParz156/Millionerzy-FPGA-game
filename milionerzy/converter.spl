@@ -1,0 +1,8 @@
+[Inputs]
+DI_Rdy
+Clk
+=Key[7:0]=
+[Outputs]
+DO_Rdy
+=Answer[7:0]=
+[BiDir]

@@ -1,0 +1,6 @@
+Jaki model barw jest zazwyczaj wykorzystywany w drukarkach
+A. RGB
+B. CMYK
+C. VSH
+D. YUV
+!B

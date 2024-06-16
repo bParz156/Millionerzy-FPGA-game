@@ -1,0 +1,9 @@
+[Inputs]
+Clk
+nextFile
+=counter[3:0]=
+[Outputs]
+startReading
+=FName[7:0]=
+=FExt[1:0]=
+[BiDir]

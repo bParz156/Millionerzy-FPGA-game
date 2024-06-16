@@ -1,0 +1,5 @@
+vhdl work "text_module.vhd"
+vhdl work "file_selector.vhd"
+vhdl work "converter.vhd"
+vhdl work "control.vhd"
+vhdl work "main.vhf"

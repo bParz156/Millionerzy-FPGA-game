@@ -1,0 +1,865 @@
+xst -intstyle ise -ifn "D:/ucisw2/milionerzy/main.xst" -ofn "D:/ucisw2/milionerzy/main.syr" 
+xst -intstyle ise -ifn "D:/ucisw2/milionerzy/main.xst" -ofn "D:/ucisw2/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s100e-vq100-4 main.ngc main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s100e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s100e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s100e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-vq100-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-vq100-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc C:/Users/lab/Downloads/PS2_USB_SDC/PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc C:/Users/lab/Downloads/PS2_USB_SDC/PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc C:/Users/lab/Downloads/PS2_USB_SDC/PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc C:/Users/lab/Downloads/PS2_USB_SDC/PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc C:/Users/lab/Downloads/PS2_USB_SDC/PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc C:/Users/lab/Downloads/PS2_USB_SDC/PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc C:/Users/lab/Downloads/PS2_USB_SDC/PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc C:/Users/lab/Downloads/PS2_USB_SDC/PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc C:/Users/lab/Downloads/PS2_USB_SDC/PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/uciswproj/milionerzy/main.xst" -ofn "C:/uciswproj/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/nowe/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/nowe/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/nowe/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/nowe/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/nowe/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/nowe/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/nowe/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/nowe/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/nowe/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/nowe/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/Dell/Downloads/oryginall/1905/milionerzy/main.xst" -ofn "C:/Users/Dell/Downloads/oryginall/1905/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/Dell/Downloads/oryginall/1905/milionerzy/main.xst" -ofn "C:/Users/Dell/Downloads/oryginall/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/2805/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/2805/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf LCD.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/2805/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/2805/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf LCD.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/2805/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/2805/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf LCD.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/2805/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/2805/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf LCD.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/2105/2805/1905/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/2105/2805/1905/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc LCD.ucf -uc GenIO.ucf -uc PS2_USB_SDC.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf LCD.ucf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/04 06/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/04 06/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc PS2_USB_SDC.ucf -uc LCD.ucf -uc GenIO.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf -ucf GenIO.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+xst -intstyle ise -ifn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.xst" -ofn "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 main.ngc main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 
+par -w -intstyle ise -ol high -t 1 main_map.ncd main.ncd main.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml main.twx main.ncd -o main.twr main.pcf -ucf GenIO.ucf -ucf PS2_USB_SDC.ucf -ucf LCD.ucf 
+bitgen -intstyle ise -f main.ut main.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym main {D:/ucisw2/wersja finalna/milionerzy/main.sch} {D:/ucisw2/wersja finalna/milionerzy/main.sym} 
+xst -intstyle ise -ifn "D:/ucisw2/wersja finalna/milionerzy/main.xst" -ofn "D:/ucisw2/wersja finalna/milionerzy/main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc GenIO.ucf -uc PS2_USB_SDC.ucf -uc LCD.ucf -p xc3s500e-fg320-4 "main.ngc" main.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o main_map.ncd main.ngd main.pcf 

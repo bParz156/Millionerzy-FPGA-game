@@ -1,0 +1,4 @@
+vhdtdtfi -lib work file_selector.vhd -prj milionerzy -o file_selector.spl -module file_selector -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e file_selector.spl {D:/ucisw2/wersja finalna/milionerzy/file_selector.sym} 
+vhdtdtfi -lib work file_selector.vhd -prj milionerzy -o file_selector.spl -module file_selector -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e file_selector.spl {D:/ucisw2/wersja finalna/milionerzy/file_selector.sym} 

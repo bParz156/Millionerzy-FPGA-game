@@ -1,0 +1,6 @@
+Ktory z wymienionych jezykow programowania powstal najpozniej?
+A. Java
+B. C
+C. Python
+D. JavaScript
+!D

@@ -1,0 +1,4 @@
+vhdtdtfi -lib work control.vhd -prj milionerzy -o control.spl -module control -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl {D:/ucisw2/wersja finalna/milionerzy/control.sym} 
+vhdtdtfi -lib work control.vhd -prj milionerzy -o control.spl -module control -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e control.spl {D:/ucisw2/wersja finalna/milionerzy/control.sym} 

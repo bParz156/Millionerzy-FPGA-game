@@ -1,0 +1,6 @@
+vhdtdtfi -lib work text_module.vhd -prj milionerzy -o text_module.spl -module text_module -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e text_module.spl {D:/ucisw2/wersja finalna/milionerzy/text_module.sym} 
+vhdtdtfi -lib work text_module.vhd -prj milionerzy -o text_module.spl -module text_module -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e text_module.spl {D:/ucisw2/wersja finalna/milionerzy/text_module.sym} 
+vhdtdtfi -lib work text_module.vhd -prj milionerzy -o text_module.spl -module text_module -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e text_module.spl {D:/ucisw2/wersja finalna/milionerzy/text_module.sym} 

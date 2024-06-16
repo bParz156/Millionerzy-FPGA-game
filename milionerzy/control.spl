@@ -1,0 +1,10 @@
+[Inputs]
+userAns_Rdy
+Clk
+Ans_Rdy
+=userAns[7:0]=
+=Ans[7:0]=
+[Outputs]
+point
+got_userAns
+[BiDir]

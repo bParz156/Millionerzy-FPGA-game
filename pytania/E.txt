@@ -1,0 +1,6 @@
+1024 bajty to:
+A. 1 bit
+B. 1 kB
+C. 1,024 kB
+D. 1 MB
+!B

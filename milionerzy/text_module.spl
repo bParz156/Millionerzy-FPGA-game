@@ -1,0 +1,15 @@
+[Inputs]
+Clk
+nextFile
+Busy
+DI_Rdy
+=DI[7:0]=
+[Outputs]
+NewLine
+Ans_Rdy
+gt0
+DO_Pop
+CharWE
+=DO[7:0]=
+=Ans[7:0]=
+[BiDir]

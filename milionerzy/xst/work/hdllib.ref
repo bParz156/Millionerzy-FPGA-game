@@ -1,0 +1,24 @@
+AR cb4ce_mxilinx_main behavioral "D:/ucisw2/wersja finalna/milionerzy/main.vhf" sub00/vhpl23 1718283348
+AR maincontrol behavioral C:/Users/lab/Desktop/Milionerzy/milionerzy/MainControl.vhd sub00/vhpl09 1715096694
+AR converter behavioral "D:/ucisw2/wersja finalna/milionerzy/converter.vhd" sub00/vhpl13 1718283340
+AR main behavioral "D:/ucisw2/wersja finalna/milionerzy/main.vhf" sub00/vhpl03 1718283350
+EN converter_s NULL C:/Users/lab/Desktop/Milionerzy/milionerzy/converter_s.vhd sub00/vhpl16 1718115191
+AR button_to_impulse behavioral C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/button_to_impulse.vhd sub00/vhpl11 1716301322
+AR ftce_mxilinx_main behavioral "D:/ucisw2/wersja finalna/milionerzy/main.vhf" sub00/vhpl21 1718283346
+EN button_to_impulse NULL C:/Users/lab/Desktop/milionerzB19/1905/milionerzy/button_to_impulse.vhd sub00/vhpl10 1716301321
+EN main NULL "D:/ucisw2/wersja finalna/milionerzy/main.vhf" sub00/vhpl02 1718283349
+EN file_selector NULL "D:/ucisw2/wersja finalna/milionerzy/file_selector.vhd" sub00/vhpl06 1718283343
+EN cb4ce_mxilinx_main NULL "D:/ucisw2/wersja finalna/milionerzy/main.vhf" sub00/vhpl22 1718283347
+AR file_selector behavioral "D:/ucisw2/wersja finalna/milionerzy/file_selector.vhd" sub00/vhpl07 1718283344
+AR text_module behavioral "D:/ucisw2/wersja finalna/milionerzy/text_module.vhd" sub00/vhpl05 1718283342
+EN converter NULL "D:/ucisw2/wersja finalna/milionerzy/converter.vhd" sub00/vhpl12 1718283339
+EN maincontrol NULL C:/Users/lab/Desktop/Milionerzy/milionerzy/MainControl.vhd sub00/vhpl08 1715096693
+AR converter_s behavioral C:/Users/lab/Desktop/Milionerzy/milionerzy/converter_s.vhd sub00/vhpl17 1718115192
+EN ftce_mxilinx_main NULL "D:/ucisw2/wersja finalna/milionerzy/main.vhf" sub00/vhpl20 1718283345
+EN control NULL "D:/ucisw2/wersja finalna/milionerzy/control.vhd" sub00/vhpl00 1718283337
+AR controlkombinacyjny behavioral C:/Users/lab/Desktop/2105/1905/milionerzy/controlKombinacyjny.vhd sub00/vhpl15 1716904919
+EN text_module NULL "D:/ucisw2/wersja finalna/milionerzy/text_module.vhd" sub00/vhpl04 1718283341
+EN controlkombinacyjny NULL C:/Users/lab/Desktop/2105/1905/milionerzy/controlKombinacyjny.vhd sub00/vhpl14 1716904918
+AR cj4re_mxilinx_main behavioral "C:/Users/lab/Desktop/04 06/milionerzy/main.vhf" sub00/vhpl19 1717515254
+AR control behavioral "D:/ucisw2/wersja finalna/milionerzy/control.vhd" sub00/vhpl01 1718283338
+EN cj4re_mxilinx_main NULL "C:/Users/lab/Desktop/04 06/milionerzy/main.vhf" sub00/vhpl18 1717515253

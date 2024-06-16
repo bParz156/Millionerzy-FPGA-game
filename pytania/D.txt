@@ -1,0 +1,6 @@
+W jakiej pamieci znajduje się BIOS?
+A. RAM
+B. Cache
+C. rejestry
+D. ROM
+!D

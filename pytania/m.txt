@@ -1,0 +1,6 @@
+Witamy w grze Milionerzy realizowanej w ramach zajec projektowych z Ukladow Cyfrowych. Za chwile staniesz przed wyzwaniem odpowiedzi na skrupulanie ulozone przez nas pytania, krotych bedzie 14. Twoim zadaniem jest udzielenie poprawnej odpowiedzi na jak najwiecej pytan. Aby udzielic odpowiedzi na pytania wcisnij klawisz jej odpowiadajacy. Diody poczawszy od skrajnie prawej licza poprawne odpowiedzi, natomiast na ekranie LCD wyswietlana jest poprawna odpowiedz na poprzednie pytanie. Odpowiedzi beda przedstawione w nastepujac sposob:
+A. Odpowiedz A. Wcisnij klawisz A
+B. Odpowiedz B. Wcisnij klawisz B
+C. Odpowiedz C. Wcisnij klawisz C
+D. Odpowiedz D. Wcisnij klawisz D
+!:

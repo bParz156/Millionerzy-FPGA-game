@@ -1,0 +1,783 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.15 secs
+ 
+--> Reading design: main.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "main.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "main"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : main
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+WARNING:HDLParsers:3607 - Unit work/FTCE_MXILINX_main is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.vhf", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/main.vhf".
+WARNING:HDLParsers:3607 - Unit work/FTCE_MXILINX_main/BEHAVIORAL is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.vhf", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/main.vhf".
+WARNING:HDLParsers:3607 - Unit work/CB4CE_MXILINX_main is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.vhf", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/main.vhf".
+WARNING:HDLParsers:3607 - Unit work/CB4CE_MXILINX_main/BEHAVIORAL is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.vhf", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/main.vhf".
+WARNING:HDLParsers:3607 - Unit work/main is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.vhf", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/main.vhf".
+WARNING:HDLParsers:3607 - Unit work/main/BEHAVIORAL is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/Milionerzy/milionerzy/main.vhf", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/main.vhf".
+WARNING:HDLParsers:3607 - Unit work/control is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/Milionerzy/milionerzy/control.vhd", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/control.vhd".
+WARNING:HDLParsers:3607 - Unit work/control/Behavioral is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/Milionerzy/milionerzy/control.vhd", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/control.vhd".
+WARNING:HDLParsers:3607 - Unit work/converter is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/04 06/milionerzy/converter.vhd", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/converter.vhd".
+WARNING:HDLParsers:3607 - Unit work/converter/Behavioral is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/04 06/milionerzy/converter.vhd", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/converter.vhd".
+WARNING:HDLParsers:3607 - Unit work/file_selector is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/Milionerzy/milionerzy/file_selector.vhd", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/file_selector.vhd".
+WARNING:HDLParsers:3607 - Unit work/file_selector/Behavioral is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/Milionerzy/milionerzy/file_selector.vhd", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/file_selector.vhd".
+WARNING:HDLParsers:3607 - Unit work/text_module is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/Milionerzy/milionerzy/text_module.vhd", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/text_module.vhd".
+WARNING:HDLParsers:3607 - Unit work/text_module/Behavioral is now defined in a different file.  It was defined in "C:/Users/lab/Desktop/Milionerzy/milionerzy/text_module.vhd", and is now defined in "D:/ucisw2/wersja finalna/milionerzy/text_module.vhd".
+Compiling vhdl file "D:/ucisw2/wersja finalna/milionerzy/control.vhd" in Library work.
+Entity <control> compiled.
+Entity <control> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/ucisw2/wersja finalna/milionerzy/converter.vhd" in Library work.
+Entity <converter> compiled.
+Entity <converter> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/ucisw2/wersja finalna/milionerzy/text_module.vhd" in Library work.
+Entity <text_module> compiled.
+Entity <text_module> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/ucisw2/wersja finalna/milionerzy/file_selector.vhd" in Library work.
+Entity <file_selector> compiled.
+Entity <file_selector> (Architecture <behavioral>) compiled.
+Compiling vhdl file "D:/ucisw2/wersja finalna/milionerzy/main.vhf" in Library work.
+Entity <ftce_mxilinx_main> compiled.
+Entity <ftce_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <cb4ce_mxilinx_main> compiled.
+Entity <cb4ce_mxilinx_main> (Architecture <behavioral>) compiled.
+Entity <main> compiled.
+Entity <main> (Architecture <behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <CB4CE_MXILINX_main> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <control> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <converter> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <text_module> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <file_selector> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <FTCE_MXILINX_main> in library <work> (architecture <behavioral>) with generics.
+	INIT = '0'
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <main> in library <work> (Architecture <behavioral>).
+WARNING:Xst:2211 - "D:/ucisw2/wersja finalna/milionerzy/main.vhf" line 417: Instantiating black box module <VGAtxt48x20>.
+WARNING:Xst:753 - "D:/ucisw2/wersja finalna/milionerzy/main.vhf" line 448: Unconnected output port 'E0' of component 'PS2_Kbd'.
+WARNING:Xst:2211 - "D:/ucisw2/wersja finalna/milionerzy/main.vhf" line 448: Instantiating black box module <PS2_Kbd>.
+WARNING:Xst:753 - "D:/ucisw2/wersja finalna/milionerzy/main.vhf" line 463: Unconnected output port 'Error' of component 'SDC_FileReader'.
+WARNING:Xst:753 - "D:/ucisw2/wersja finalna/milionerzy/main.vhf" line 463: Unconnected output port 'Busy' of component 'SDC_FileReader'.
+WARNING:Xst:2211 - "D:/ucisw2/wersja finalna/milionerzy/main.vhf" line 463: Instantiating black box module <SDC_FileReader>.
+WARNING:Xst:753 - "D:/ucisw2/wersja finalna/milionerzy/main.vhf" line 481: Unconnected output port 'Busy' of component 'LCDWrite'.
+WARNING:Xst:2211 - "D:/ucisw2/wersja finalna/milionerzy/main.vhf" line 481: Instantiating black box module <LCDWrite>.
+WARNING:Xst:753 - "D:/ucisw2/wersja finalna/milionerzy/main.vhf" line 497: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_main'.
+WARNING:Xst:753 - "D:/ucisw2/wersja finalna/milionerzy/main.vhf" line 497: Unconnected output port 'TC' of component 'CB4CE_MXILINX_main'.
+    Set user-defined property "HU_SET =  XLXI_51_4" for instance <XLXI_51> in unit <main>.
+WARNING:Xst:753 - "D:/ucisw2/wersja finalna/milionerzy/main.vhf" line 508: Unconnected output port 'CEO' of component 'CB4CE_MXILINX_main'.
+WARNING:Xst:753 - "D:/ucisw2/wersja finalna/milionerzy/main.vhf" line 508: Unconnected output port 'TC' of component 'CB4CE_MXILINX_main'.
+    Set user-defined property "HU_SET =  XLXI_52_5" for instance <XLXI_52> in unit <main>.
+Entity <main> analyzed. Unit <main> generated.
+
+Analyzing Entity <CB4CE_MXILINX_main> in library <work> (Architecture <behavioral>).
+    Set user-defined property "HU_SET =  I_Q0_0" for instance <I_Q0> in unit <CB4CE_MXILINX_main>.
+    Set user-defined property "HU_SET =  I_Q1_1" for instance <I_Q1> in unit <CB4CE_MXILINX_main>.
+    Set user-defined property "HU_SET =  I_Q2_2" for instance <I_Q2> in unit <CB4CE_MXILINX_main>.
+    Set user-defined property "HU_SET =  I_Q3_3" for instance <I_Q3> in unit <CB4CE_MXILINX_main>.
+Entity <CB4CE_MXILINX_main> analyzed. Unit <CB4CE_MXILINX_main> generated.
+
+Analyzing generic Entity <FTCE_MXILINX_main> in library <work> (Architecture <behavioral>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTCE_MXILINX_main>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_35> in unit <FTCE_MXILINX_main>.
+Entity <FTCE_MXILINX_main> analyzed. Unit <FTCE_MXILINX_main> generated.
+
+Analyzing Entity <control> in library <work> (Architecture <behavioral>).
+Entity <control> analyzed. Unit <control> generated.
+
+Analyzing Entity <converter> in library <work> (Architecture <behavioral>).
+Entity <converter> analyzed. Unit <converter> generated.
+
+Analyzing Entity <text_module> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/ucisw2/wersja finalna/milionerzy/text_module.vhd" line 64: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <DI>, <nextFile>, <lineCnt>, <Busy>
+WARNING:Xst:819 - "D:/ucisw2/wersja finalna/milionerzy/text_module.vhd" line 131: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <DI>
+Entity <text_module> analyzed. Unit <text_module> generated.
+
+Analyzing Entity <file_selector> in library <work> (Architecture <behavioral>).
+WARNING:Xst:819 - "D:/ucisw2/wersja finalna/milionerzy/file_selector.vhd" line 63: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <questionCnt>, <nextFile>
+Entity <file_selector> analyzed. Unit <file_selector> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <control>.
+    Related source file is "D:/ucisw2/wersja finalna/milionerzy/control.vhd".
+    Found finite state machine <FSM_0> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 5                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 1                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Reset              | Ans_Rdy                   (negative)           |
+    | Reset type         | synchronous                                    |
+    | Reset State        | waitans                                        |
+    | Power Up State     | waitans                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Found 8-bit comparator equal for signal <point$cmp_eq0000> created at line 84.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 Comparator(s).
+Unit <control> synthesized.
+
+
+Synthesizing Unit <converter>.
+    Related source file is "D:/ucisw2/wersja finalna/milionerzy/converter.vhd".
+    Found finite state machine <FSM_1> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 3                                              |
+    | Transitions        | 4                                              |
+    | Inputs             | 1                                              |
+    | Outputs            | 2                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Power Up State     | waiting                                        |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 8-bit latch for signal <Answer>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <converter> synthesized.
+
+
+Synthesizing Unit <text_module>.
+    Related source file is "D:/ucisw2/wersja finalna/milionerzy/text_module.vhd".
+    Found finite state machine <FSM_2> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 8                                              |
+    | Transitions        | 14                                             |
+    | Inputs             | 6                                              |
+    | Outputs            | 10                                             |
+    | Clock              | Clk                       (rising_edge)        |
+    | Power Up State     | start                                          |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 8-bit latch for signal <Ans>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <counted>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <imuplsPop>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 8-bit latch for signal <DO>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 6-bit register for signal <lineCnt>.
+    Found 6-bit adder for signal <lineCnt$addsub0000>.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   6 D-type flip-flop(s).
+	inferred   1 Adder/Subtractor(s).
+Unit <text_module> synthesized.
+
+
+Synthesizing Unit <file_selector>.
+    Related source file is "D:/ucisw2/wersja finalna/milionerzy/file_selector.vhd".
+    Found 16x8-bit ROM for signal <FName$rom0000> created at line 87.
+    Found finite state machine <FSM_3> for signal <state>.
+    -----------------------------------------------------------------------
+    | States             | 4                                              |
+    | Transitions        | 6                                              |
+    | Inputs             | 2                                              |
+    | Outputs            | 2                                              |
+    | Clock              | Clk                       (rising_edge)        |
+    | Power Up State     | off                                            |
+    | Encoding           | automatic                                      |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+WARNING:Xst:737 - Found 8-bit latch for signal <FName>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+    Summary:
+	inferred   1 Finite State Machine(s).
+	inferred   1 ROM(s).
+Unit <file_selector> synthesized.
+
+
+Synthesizing Unit <FTCE_MXILINX_main>.
+    Related source file is "D:/ucisw2/wersja finalna/milionerzy/main.vhf".
+Unit <FTCE_MXILINX_main> synthesized.
+
+
+Synthesizing Unit <CB4CE_MXILINX_main>.
+    Related source file is "D:/ucisw2/wersja finalna/milionerzy/main.vhf".
+Unit <CB4CE_MXILINX_main> synthesized.
+
+
+Synthesizing Unit <main>.
+    Related source file is "D:/ucisw2/wersja finalna/milionerzy/main.vhf".
+WARNING:Xst:653 - Signal <XLXI_52_CLR_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_51_CLR_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_48_Reset_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_48_Cursor_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_48_Blink_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_37_Reset_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_37_Abort_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+WARNING:Xst:653 - Signal <XLXI_11_Home_openSignal> is used but never assigned. This sourceless signal will be automatically connected to value 0.
+Unit <main> synthesized.
+
+INFO:Xst:1767 - HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 6-bit adder                                           : 1
+# Registers                                            : 1
+ 6-bit register                                        : 1
+# Latches                                              : 6
+ 1-bit latch                                           : 2
+ 8-bit latch                                           : 4
+# Comparators                                          : 1
+ 8-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Analyzing FSM <FSM_3> for best encoding.
+Optimizing FSM <XLXI_129/state/FSM> on signal <state[1:4]> with one-hot encoding.
+----------------------
+ State    | Encoding
+----------------------
+ off      | 0001
+ starting | 0010
+ started  | 0100
+ finito   | 1000
+----------------------
+Analyzing FSM <FSM_2> for best encoding.
+Optimizing FSM <XLXI_77/state/FSM> on signal <state[1:8]> with one-hot encoding.
+-----------------------
+ State     | Encoding
+-----------------------
+ start     | 00000001
+ reading   | 00000010
+ writing   | 00010000
+ endl      | 00000100
+ ansstbrdy | 00001000
+ ansrdy    | 00100000
+ clr       | 01000000
+ clrendl   | 10000000
+-----------------------
+Analyzing FSM <FSM_1> for best encoding.
+Optimizing FSM <XLXI_64/state/FSM> on signal <state[1:2]> with user encoding.
+------------------------
+ State      | Encoding
+------------------------
+ waiting    | 00
+ converting | 01
+ ready      | 10
+------------------------
+Analyzing FSM <FSM_0> for best encoding.
+Optimizing FSM <XLXI_63/state/FSM> on signal <state[1:2]> with gray encoding.
+----------------------
+ State    | Encoding
+----------------------
+ waitans  | 00
+ waitin   | 01
+ gotin    | 11
+ validans | 10
+----------------------
+Reading core <VGAtxt48x20.ngc>.
+Reading core <PS2_Kbd.ngc>.
+Reading core <SDC_FileReader.ngc>.
+Reading core <LCDWrite.ngc>.
+Loading core <VGAtxt48x20> for timing and area information for instance <XLXI_11>.
+Loading core <PS2_Kbd> for timing and area information for instance <XLXI_26>.
+Loading core <SDC_FileReader> for timing and area information for instance <XLXI_37>.
+Loading core <LCDWrite> for timing and area information for instance <XLXI_48>.
+WARNING:Xst:1426 - The value init of the FF/Latch FFd4 hinder the constant cleaning in the block FSM.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <3>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <4>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <5>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <7>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# FSMs                                                 : 4
+# ROMs                                                 : 1
+ 16x8-bit ROM                                          : 1
+# Adders/Subtractors                                   : 1
+ 6-bit adder                                           : 1
+# Registers                                            : 14
+ Flip-Flops                                            : 14
+# Latches                                              : 6
+ 1-bit latch                                           : 2
+ 8-bit latch                                           : 4
+# Comparators                                          : 1
+ 8-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1426 - The value init of the FF/Latch FSM_FFd4 hinder the constant cleaning in the block FSM_3-parent.
+   You should achieve better results by setting this init to 0.
+WARNING:Xst:1710 - FF/Latch <Answer_3> (without init value) has a constant value of 0 in block <converter>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Answer_4> (without init value) has a constant value of 0 in block <converter>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Answer_5> (without init value) has a constant value of 0 in block <converter>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <Answer_7> (without init value) has a constant value of 0 in block <converter>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <XLXI_129/FName_6> (without init value) has a constant value of 1 in block <main>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <XLXI_129/FName_7> (without init value) has a constant value of 0 in block <main>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <main> ...
+
+Optimizing unit <FTCE_MXILINX_main> ...
+
+Optimizing unit <converter> ...
+
+Optimizing unit <text_module> ...
+
+Optimizing unit <CB4CE_MXILINX_main> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block main, actual ratio is 22.
+INFO:Xst:2260 - The FF/Latch <XLXI_94/State_11> in Unit <XLXI_37> is equivalent to the following FF/Latch : <XLXI_94/State_11_1> 
+INFO:Xst:2260 - The FF/Latch <XLXI_94/State_15> in Unit <XLXI_37> is equivalent to the following FF/Latch : <XLXI_94/State_15_1> 
+INFO:Xst:2260 - The FF/Latch <XLXI_94/SpC_1> in Unit <XLXI_37> is equivalent to the following FF/Latch : <XLXI_94/SpC_1_1> 
+INFO:Xst:2260 - The FF/Latch <Res_Rst/prevDIn> in Unit <XLXI_48> is equivalent to the following FF/Latch : <Res_Rst/prevDIn_1> 
+INFO:Xst:2260 - The FF/Latch <XLXI_94/State_11> in Unit <XLXI_37> is equivalent to the following FF/Latch : <XLXI_94/State_11_1> 
+INFO:Xst:2260 - The FF/Latch <XLXI_94/State_15> in Unit <XLXI_37> is equivalent to the following FF/Latch : <XLXI_94/State_15_1> 
+INFO:Xst:2260 - The FF/Latch <XLXI_94/SpC_1> in Unit <XLXI_37> is equivalent to the following FF/Latch : <XLXI_94/SpC_1_1> 
+INFO:Xst:2260 - The FF/Latch <Res_Rst/prevDIn> in Unit <XLXI_48> is equivalent to the following FF/Latch : <Res_Rst/prevDIn_1> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 29
+ Flip-Flops                                            : 29
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : main.ngr
+Top Level Output File Name         : main
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 24
+
+Cell Usage :
+# BELS                             : 2693
+#      AND2                        : 7
+#      AND3                        : 6
+#      AND3B1                      : 4
+#      AND4                        : 2
+#      BUF                         : 3
+#      GND                         : 5
+#      INV                         : 64
+#      LUT1                        : 157
+#      LUT2                        : 260
+#      LUT2_D                      : 10
+#      LUT2_L                      : 29
+#      LUT3                        : 343
+#      LUT3_D                      : 11
+#      LUT3_L                      : 10
+#      LUT4                        : 807
+#      LUT4_D                      : 72
+#      LUT4_L                      : 101
+#      MULT_AND                    : 10
+#      MUXCY                       : 333
+#      MUXF5                       : 95
+#      MUXF5_L                     : 2
+#      MUXF6                       : 15
+#      OR2                         : 7
+#      VCC                         : 7
+#      XOR2                        : 9
+#      XORCY                       : 324
+# FlipFlops/Latches                : 749
+#      FD                          : 146
+#      FDCE                        : 8
+#      FDE                         : 176
+#      FDR                         : 80
+#      FDRE                        : 147
+#      FDRS                        : 6
+#      FDRSE                       : 6
+#      FDS                         : 148
+#      FDSE                        : 4
+#      LD                          : 20
+#      LDE                         : 8
+# RAMS                             : 3
+#      RAMB16_S9                   : 1
+#      RAMB16_S9_S9                : 2
+# Shift Registers                  : 3
+#      SRL16                       : 3
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 23
+#      IBUF                        : 3
+#      IOBUF                       : 4
+#      OBUF                        : 16
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                     1060  out of   4656    22%  
+ Number of Slice Flip Flops:            749  out of   9312     8%  
+ Number of 4 input LUTs:               1867  out of   9312    20%  
+    Number used as logic:              1864
+    Number used as Shift registers:       3
+ Number of IOs:                          24
+ Number of bonded IOBs:                  24  out of    232    10%  
+ Number of BRAMs:                         3  out of     20    15%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+----------------------------------------------------+---------------------------+-------+
+Clock Signal                                        | Clock buffer(FF name)     | Load  |
+----------------------------------------------------+---------------------------+-------+
+Clk                                                 | BUFGP                     | 727   |
+XLXI_129/state_FSM_FFd2                             | NONE(XLXI_129/FName_0)    | 6     |
+XLXI_64/state_FSM_FFd2                              | NONE(XLXI_64/Answer_6)    | 4     |
+XLXI_77/DO_or0000(XLXI_77/DO_or0000:O)              | NONE(*)(XLXI_77/DO_7)     | 8     |
+XLXI_77/state_FSM_FFd3                              | NONE(XLXI_77/Ans_7)       | 8     |
+XLXI_77/counted_not0001(XLXI_77/counted_not00012:O) | NONE(*)(XLXI_77/counted)  | 1     |
+XLXI_77/imuplsPop_or0000(XLXI_77/imuplsPop_or0000:O)| NONE(*)(XLXI_77/imuplsPop)| 1     |
+----------------------------------------------------+---------------------------+-------+
+(*) These 3 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+---------------------------+-------+
+Control Signal                     | Buffer(FF name)           | Load  |
+-----------------------------------+---------------------------+-------+
+N0(XST_GND:G)                      | NONE(XLXI_51/I_Q0/I_36_35)| 8     |
+-----------------------------------+---------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 11.690ns (Maximum Frequency: 85.543MHz)
+   Minimum input arrival time before clock: 3.980ns
+   Maximum output required time after clock: 7.533ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clk'
+  Clock period: 11.690ns (frequency: 85.543MHz)
+  Total number of paths / destination ports: 66502 / 1501
+-------------------------------------------------------------------------
+Delay:               11.690ns (Levels of Logic = 36)
+  Source:            XLXI_37/XLXI_94/State_21 (FF)
+  Destination:       XLXI_37/XLXI_94/adrSec_31 (FF)
+  Source Clock:      Clk rising
+  Destination Clock: Clk rising
+
+  Data Path: XLXI_37/XLXI_94/State_21 to XLXI_37/XLXI_94/adrSec_31
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDS:C->Q             79   0.591   1.452  XLXI_94/State_21 (XLXI_94/State<21>)
+     LUT2_D:I0->O         11   0.704   0.937  XLXI_94/adrSec_or00001 (XLXI_94/adrSec_or0000)
+     LUT4_D:I3->O         17   0.704   1.055  XLXI_94/adrSec_mux0005<25>25 (XLXI_94/N61)
+     LUT4:I3->O            1   0.704   0.424  XLXI_94/adrSec_mux0005<30>1 (XLXI_94/adrSec_mux0005<30>)
+     LUT4:I3->O            1   0.704   0.000  XLXI_94/Madd_adrSec_share0000_lut<1> (XLXI_94/Madd_adrSec_share0000_lut<1>)
+     MUXCY:S->O            1   0.464   0.000  XLXI_94/Madd_adrSec_share0000_cy<1> (XLXI_94/Madd_adrSec_share0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<2> (XLXI_94/Madd_adrSec_share0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<3> (XLXI_94/Madd_adrSec_share0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<4> (XLXI_94/Madd_adrSec_share0000_cy<4>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<5> (XLXI_94/Madd_adrSec_share0000_cy<5>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<6> (XLXI_94/Madd_adrSec_share0000_cy<6>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<7> (XLXI_94/Madd_adrSec_share0000_cy<7>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<8> (XLXI_94/Madd_adrSec_share0000_cy<8>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<9> (XLXI_94/Madd_adrSec_share0000_cy<9>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<10> (XLXI_94/Madd_adrSec_share0000_cy<10>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<11> (XLXI_94/Madd_adrSec_share0000_cy<11>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<12> (XLXI_94/Madd_adrSec_share0000_cy<12>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<13> (XLXI_94/Madd_adrSec_share0000_cy<13>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<14> (XLXI_94/Madd_adrSec_share0000_cy<14>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<15> (XLXI_94/Madd_adrSec_share0000_cy<15>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<16> (XLXI_94/Madd_adrSec_share0000_cy<16>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<17> (XLXI_94/Madd_adrSec_share0000_cy<17>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<18> (XLXI_94/Madd_adrSec_share0000_cy<18>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<19> (XLXI_94/Madd_adrSec_share0000_cy<19>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<20> (XLXI_94/Madd_adrSec_share0000_cy<20>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<21> (XLXI_94/Madd_adrSec_share0000_cy<21>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<22> (XLXI_94/Madd_adrSec_share0000_cy<22>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<23> (XLXI_94/Madd_adrSec_share0000_cy<23>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<24> (XLXI_94/Madd_adrSec_share0000_cy<24>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<25> (XLXI_94/Madd_adrSec_share0000_cy<25>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<26> (XLXI_94/Madd_adrSec_share0000_cy<26>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<27> (XLXI_94/Madd_adrSec_share0000_cy<27>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<28> (XLXI_94/Madd_adrSec_share0000_cy<28>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<29> (XLXI_94/Madd_adrSec_share0000_cy<29>)
+     MUXCY:CI->O           0   0.059   0.000  XLXI_94/Madd_adrSec_share0000_cy<30> (XLXI_94/Madd_adrSec_share0000_cy<30>)
+     XORCY:CI->O           1   0.804   0.424  XLXI_94/Madd_adrSec_share0000_xor<31> (XLXI_94/adrSec_share0000<31>)
+     LUT4:I3->O            1   0.704   0.000  XLXI_94/adrSec_mux0004<31>23 (XLXI_94/adrSec_mux0004<31>23)
+     FDS:D                     0.308          XLXI_94/adrSec_31
+    ----------------------------------------
+    Total                     11.690ns (7.398ns logic, 4.292ns route)
+                                       (63.3% logic, 36.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_77/state_FSM_FFd3'
+  Clock period: 2.298ns (frequency: 435.161MHz)
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Delay:               2.298ns (Levels of Logic = 1)
+  Source:            XLXI_77/Ans_7 (LATCH)
+  Destination:       XLXI_77/Ans_7 (LATCH)
+  Source Clock:      XLXI_77/state_FSM_FFd3 falling
+  Destination Clock: XLXI_77/state_FSM_FFd3 falling
+
+  Data Path: XLXI_77/Ans_7 to XLXI_77/Ans_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LDE:G->Q              3   0.676   0.610  XLXI_77/Ans_7 (XLXI_77/Ans_7)
+     LUT3:I1->O            1   0.704   0.000  XLXI_77/Ans_mux0001<7>1 (XLXI_77/Ans_mux0001<7>)
+     LDE:D                     0.308          XLXI_77/Ans_7
+    ----------------------------------------
+    Total                      2.298ns (1.688ns logic, 0.610ns route)
+                                       (73.5% logic, 26.5% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_77/counted_not0001'
+  Clock period: 2.543ns (frequency: 393.236MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.543ns (Levels of Logic = 1)
+  Source:            XLXI_77/counted (LATCH)
+  Destination:       XLXI_77/counted (LATCH)
+  Source Clock:      XLXI_77/counted_not0001 falling
+  Destination Clock: XLXI_77/counted_not0001 falling
+
+  Data Path: XLXI_77/counted to XLXI_77/counted
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     LD:G->Q               9   0.676   0.855  XLXI_77/counted (XLXI_77/counted)
+     LUT4:I2->O            2   0.704   0.000  XLXI_77/counted_not000111 (XLXI_77/counted_mux0001)
+     LD:D                      0.308          XLXI_77/counted
+    ----------------------------------------
+    Total                      2.543ns (1.688ns logic, 0.855ns route)
+                                       (66.4% logic, 33.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Clk'
+  Total number of paths / destination ports: 4 / 4
+-------------------------------------------------------------------------
+Offset:              3.980ns (Levels of Logic = 4)
+  Source:            PS2_Data (PAD)
+  Destination:       XLXI_26/ByteRdy (FF)
+  Destination Clock: Clk rising
+
+  Data Path: PS2_Data to XLXI_26/ByteRdy
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             2   1.218   0.622  PS2_Data_IBUF (PS2_Data_IBUF)
+     begin scope: 'XLXI_26'
+     LUT2:I0->O            1   0.704   0.424  ByteRdy_and0000_SW0_SW0 (N6)
+     LUT4:I3->O            1   0.704   0.000  ByteRdy_and0000 (ByteRdy_and0000)
+     FDR:D                     0.308          ByteRdy
+    ----------------------------------------
+    Total                      3.980ns (2.934ns logic, 1.046ns route)
+                                       (73.7% logic, 26.3% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clk'
+  Total number of paths / destination ports: 42 / 19
+-------------------------------------------------------------------------
+Offset:              7.533ns (Levels of Logic = 4)
+  Source:            XLXI_37/XLXI_96/I_Transc/State_3 (FF)
+  Destination:       SDC_MOSI (PAD)
+  Source Clock:      Clk rising
+
+  Data Path: XLXI_37/XLXI_96/I_Transc/State_3 to SDC_MOSI
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q             12   0.591   1.136  XLXI_96/I_Transc/State_3 (XLXI_96/I_Transc/State<3>)
+     LUT3_D:I0->O          3   0.704   0.706  XLXI_96/I_Transc/TxByteCE_cmp_eq000011 (XLXI_96/I_Transc/N6)
+     LUT3:I0->O            1   0.704   0.420  XLXI_96/I_Transc/MOSI1 (SDC_MOSI)
+     end scope: 'XLXI_37'
+     OBUF:I->O                 3.272          SDC_MOSI_OBUF (SDC_MOSI)
+    ----------------------------------------
+    Total                      7.533ns (5.271ns logic, 2.262ns route)
+                                       (70.0% logic, 30.0% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 9.00 secs
+Total CPU time to Xst completion: 9.01 secs
+ 
+--> 
+
+Total memory usage is 4565508 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   55 (   0 filtered)
+Number of infos    :   13 (   0 filtered)
+

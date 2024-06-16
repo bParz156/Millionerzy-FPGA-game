@@ -1,0 +1,6 @@
+vhdtdtfi -lib work control.vhd -prj milionerzy -o converter.spl -module converter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e converter.spl {D:/ucisw2/wersja finalna/milionerzy/converter.sym} 
+vhdtdtfi -lib work converter.vhd -prj milionerzy -o converter.spl -module converter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e converter.spl {D:/ucisw2/wersja finalna/milionerzy/converter.sym} 
+vhdtdtfi -lib work converter.vhd -prj milionerzy -o converter.spl -module converter -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e converter.spl {D:/ucisw2/wersja finalna/milionerzy/converter.sym} 

@@ -1,0 +1,6 @@
+Wybierz liczbe pytan, na ktore chcialbys/ chcialabys odpowiedziec:
+A. 5
+B. 7
+C. 10
+D. 15
+!A
